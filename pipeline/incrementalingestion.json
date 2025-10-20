@@ -176,13 +176,7 @@
 										"file": "@concat(pipeline().parameters.table,'_',variables('current'))"
 									}
 								},
-								"logStorageSettings": {
-									"linkedServiceName": {
-										"referenceName": "AzureDataLakeStorage1",
-										"type": "LinkedServiceReference"
-									}
-								},
-								"enableLogging": true,
+								"enableLogging": false,
 								"storeSettings": {
 									"type": "AzureBlobFSReadSettings",
 									"recursive": true,
